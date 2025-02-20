@@ -20,14 +20,14 @@
 
 :root {
     --color-bg: #1f1d1e;
-    --color-bg-2: rgb(0, 0, 0);
+    --color-bg-2: #2b292a;
     --color-text: #ffffff;
     --color-muted: #e0d9cb;
     --color-accent: rgba(255, 255, 255, 0.1);
     --color-hover: rgba(255, 255, 255, 0.2);
     --color-alt-accent: #ddc229;
     --color-alt-hover: #e0af25;
-    --color-shadow: rgba(255, 255, 255, 0.1);
+    --color-shadow: rgba(255, 255, 255, 0.1)
 }
 
 #drop-area {
