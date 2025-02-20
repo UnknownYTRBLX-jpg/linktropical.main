@@ -1,0 +1,84 @@
+/*
+
+    --/ starlight-patches.css /--
+
+    --/ Author /--
+    - Discord: aeryxvs
+    - GitHub:  aeryxvs
+    - Mail:    aeryxvs@starlight-foss.org
+
+   --/ Stylesheet /--
+    A companion CSS for the falcon.css, this includes patches to make create Starlight's websites.
+    - Created by aeryxvs
+    - Version: 1.0.03 (Revision 23)
+
+*/
+@font-face {
+    font-family: '13_Misa';
+    src: url("https://s1.strl.uk/projects/uniWeb/starlight.ttf") format("truetype");
+}
+
+:root {
+    --color-bg: #1f1d1e;
+    --color-bg-2: rgb(0, 0, 0);
+    --color-text: #b67600;
+    --color-muted: #d18800;
+    --color-accent: rgba(255, 255, 255, 0.1);
+    --color-hover: rgba(255, 255, 255, 0.2);
+    --color-alt-accent: #ddc229;
+    --color-alt-hover: #e0af25;
+    --color-shadow: rgba(255, 255, 255, 0.1);
+}
+
+#drop-area {
+    background-color: var(--color-accent);
+    border: 0.4vh dashed var(--color-alt-accent);
+    padding: 1rem;
+    margin: 7.5vh auto 4vh;
+    border-radius: 1rem;
+    width: 90vw;
+    height: 15vh;
+    text-align: center;
+    align-content: center;
+    color: var(--color-muted);
+    font-style: italic;
+    box-shadow: 0 0.8vh 2.4vh var(--color-alt-accent);
+    font-size: 0.9rem;
+}
+
+.misa {
+    font-family: '13_Misa', sans-serif;
+    font-weight: normal;
+}
+
+.upload-form {
+    background-color: var(--color-bg-2);
+    padding: 4vh 6vw;
+    margin: 4vh auto;
+    border-radius: 1rem;
+    box-shadow: 0 0.8vh 2.4vh var(--color-shadow);
+    max-width: 40rem;
+    text-align: center;
+}
+
+.header {
+    box-shadow: 0 0.8vh 2.4vh var(--color-alt-accent);
+}
+
+#theme-toggle {
+    background-color: var(--color-alt-accent);
+}
+#theme-toggle:hover {
+    background-color: var(--color-alt-hover);
+    box-shadow: 0 0.8vh 2.4vh var(--color-alt-hover);
+}
+
+.card-button-fix {}
+.card-button-fix:hover {
+    background-color: var(--color-alt-hover);
+    box-shadow: 0 0.8vh 2.4vh var(--color-alt-hover);
+}
+
+.footer {
+    box-shadow: 0 -2vh 2.4vh var(--color-bg-2);
+}
