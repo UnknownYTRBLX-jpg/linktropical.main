@@ -21,7 +21,7 @@
 :root {
     --color-bg: #1f1d1e;
     --color-bg-2: rgb(0, 0, 0);
-    --color-text: #b67600;
+    --color-text: #ffffff;
     --color-muted: #d18800;
     --color-accent: rgba(255, 255, 255, 0.1);
     --color-hover: rgba(255, 255, 255, 0.2);
