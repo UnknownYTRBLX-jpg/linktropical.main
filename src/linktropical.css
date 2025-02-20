@@ -14,8 +14,8 @@
 
 */
 @font-face {
-    font-family: 'Montserrat';
-    src: url("https://linktropical.rubyservices.info/fonts/linktropical.ttf") format("truetype");
+    font-family: '13_Misa';
+    src: url("https://s1.strl.uk/projects/uniWeb/starlight.ttf") format("truetype");
 }
 
 :root {
@@ -46,8 +46,8 @@
     font-size: 0.9rem;
 }
 
-.montserrat {
-    font-family: 'Montserrat', sans-serif;
+.misa {
+    font-family: '13_Misa', sans-serif;
     font-weight: normal;
 }
 
